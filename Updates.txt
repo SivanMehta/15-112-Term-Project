@@ -1,0 +1,3 @@
+All of the games now have an analogous game2. The difference between the two is the game2 is compatible with the Controller and can run accoring to the over arching design of the project.
+
+The main.py file has been created to handle the overall running of the game. This is the one that should be executed to start the project.
