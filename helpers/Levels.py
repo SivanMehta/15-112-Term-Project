@@ -20,7 +20,7 @@ class BlackHole(object):
 
     def draw(self, canvas):
         # canvas.create_oval(self.x - self.mass, self.y - self.mass, self.x + self.mass, self.y + self.mass, fill = "black")
-        self.hole = PhotoImage(file = "Hole.gif")#.zoom(8,8).subsample(1024/self.mass, 1024/self.mass)
+        self.hole = PhotoImage(file = "assets/Hole.gif")#.zoom(8,8).subsample(1024/self.mass, 1024/self.mass)
         image = canvas.create_image(self.x, self.y, image = self.hole)
 
 class Path(object):

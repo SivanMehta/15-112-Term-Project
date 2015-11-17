@@ -147,7 +147,7 @@ class Controller(Animation):
 
     def drawHeart(self, x, y):
         # print "here"
-        heart = PhotoImage(file = "Heart.gif").subsample(3,3) # to make the image 50 x 50
+        heart = PhotoImage(file = "assets/Heart.gif").subsample(3,3) # to make the image 50 x 50
         self.hearts.append(heart) #because we need to save each heart for it to show itself
         image = self.canvas.create_image(x, y, image = heart)
 
