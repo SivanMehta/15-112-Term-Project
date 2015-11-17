@@ -1,4 +1,4 @@
-from WarioAnimation import *
+from helpers.WarioAnimation import *
 from Tkinter import *
 import random, sys, time
 from wordSearch import *

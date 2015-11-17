@@ -2,7 +2,7 @@
 ## The player must maneuver around incoming enemies via jumping and moving right to left ##
 ###########################################################################################
 
-from WarioAnimation import Animation, PhysicalObject
+from helpers.WarioAnimation import Animation, PhysicalObject
 from Tkinter import *
 import random, sys, time
 

@@ -3,7 +3,7 @@
 ## off of it before the timer is over, you lose                                               ##
 ################################################################################################
 
-from WarioAnimation import *
+from helpers.WarioAnimation import *
 from Tkinter import *
 import random, time, math
 

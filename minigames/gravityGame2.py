@@ -1,4 +1,4 @@
-from WarioAnimation import *
+from helpers.WarioAnimation import *
 from Tkinter import *
 import time, math, random
 from Levels import *
