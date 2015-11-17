@@ -8,12 +8,12 @@ from Tkinter import *
 import time, random, copy
 
 from helpers.WarioAnimation import *
-from minigames.circleChaser2 import circleChaser
-from minigames.pressButton2 import buttonPresser
-from minigames.TicTacToe2 import ticTacToe
-from minigames.Jumper2 import *
-from minigames.placeCircle2 import circleGame
-from minigames.gravityGame2 import gravityGame
+from minigames.circleChaser import circleChaser
+from minigames.pressButton import buttonPresser
+from minigames.TicTacToe import ticTacToe
+from minigames.Jumper import *
+from minigames.placeCircle import circleGame
+from minigames.gravityGame import gravityGame
 # import main
 
 class Controller(Animation):
