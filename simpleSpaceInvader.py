@@ -5,7 +5,7 @@
 
 from Tkinter import *
 import random, sys
-from WarioAnimation import PhysicalObject
+from helpers.WarioAnimation import PhysicalObject
 
 class Invader(PhysicalObject):
     def __init__(self, level):

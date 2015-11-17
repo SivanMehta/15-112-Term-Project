@@ -2,7 +2,7 @@
 ## the file was used to test the implementation of a generic game into the Controller         ##
 ################################################################################################
 
-from WarioAnimation import Animation
+from helpers.WarioAnimation import Animation
 from Tkinter import *
 import random, time, math
 

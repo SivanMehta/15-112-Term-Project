@@ -7,7 +7,7 @@
 from Tkinter import *
 import time, random, copy
 
-from minigames.WarioAnimation import *
+from helpers.WarioAnimation import *
 from minigames.circleChaser2 import circleChaser
 from minigames.pressButton2 import buttonPresser
 from minigames.TicTacToe2 import ticTacToe
