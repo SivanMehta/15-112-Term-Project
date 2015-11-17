@@ -1,7 +1,7 @@
 from helpers.WarioAnimation import *
 from Tkinter import *
 import random, sys, time
-from wordSearch import *
+from helpers.wordSearch import *
 
 def printBoard(board):
     for row in board:
