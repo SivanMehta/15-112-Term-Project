@@ -1,4 +1,4 @@
-from Controller2 import Controller
+from Controller import Controller
 from Tkinter import *
 
 class game():
