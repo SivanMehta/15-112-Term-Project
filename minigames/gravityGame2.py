@@ -2,7 +2,7 @@ from helpers.WarioAnimation import *
 from Tkinter import *
 import time, math, random
 from helpers.Levels import *
-from getDirection import getDirectionTowards
+from helpers.getDirection import getDirectionTowards
 
 ###############################################################
 ## Move the circle to the end of a given path towards a goal ##
