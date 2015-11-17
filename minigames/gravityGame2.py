@@ -1,7 +1,7 @@
 from helpers.WarioAnimation import *
 from Tkinter import *
 import time, math, random
-from Levels import *
+from helpers.Levels import *
 from getDirection import getDirectionTowards
 
 ###############################################################

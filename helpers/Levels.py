@@ -4,7 +4,7 @@
 
 from Tkinter import *
 
-from WarioAnimation import PhysicalObject
+from helpers.WarioAnimation import PhysicalObject
 
 class BlackHole(object):
     def __init__(self, x, y, mass):
