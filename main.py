@@ -29,3 +29,6 @@ class game():
 
 def jail(event):
     pass
+
+if __name__ == "__main__":
+    game().run()
