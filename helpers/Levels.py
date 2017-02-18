@@ -125,46 +125,34 @@ def getPath(level):
     return paths[level - 1]
 
 def getPlayerStart(level):
-    if(level == 1):
-        return [300, 100]
-    if(level == 2):
-        return [150, 500]
-    if(level == 3):
-        return [450,500]
-    if(level == 4):
-        return [300, 300]
-    if(level == 5):
-        return [300, 300]
-    if(level == 6):
-        return [50, 550]
+    return {
+        1: [300, 100],
+        2: [150, 500],
+        3: [450, 500],
+        4: [300, 300],
+        5: [300, 300],
+        6: [50, 550]
+    }[level]
 
 def getGoalStart(level):
-    if(level == 1):
-        return [300, 500]
-    if(level == 2):
-        return [450, 100]
-    if(level == 3):
-        return [150, 550]
-    if(level == 4):
-        return [100, 515]
-    if(level == 5):
-        return [300, 75]
-    if(level == 6):
-        return [550, 50]
+    return {
+        1: [300, 500],
+        2: [450, 100],
+        3: [150, 550],
+        4: [100, 515],
+        5: [300, 75],
+        6: [550, 50]
+    }[level]
 
 def getLevelTime(level):
-    if(level == 1):
-        return 4
-    if(level == 2):
-        return 8
-    if(level == 3):
-        return 10
-    if(level == 4):
-        return 15
-    if(level == 5):
-        return 4
-    if(level == 6):
-        return 10
+    return {
+        1: 4,
+        2: 8,
+        3: 10,
+        4: 15,
+        5: 4,
+        6: 10
+    }[level]
 
 def getBlackHoles(level):
     return blackHoles[level - 1]

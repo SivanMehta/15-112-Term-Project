@@ -1,5 +1,5 @@
 from Controller import Controller
-from Tkinter import *
+from Tkinter import Tk, Canvas
 
 class game():
     def jail(self, event):
